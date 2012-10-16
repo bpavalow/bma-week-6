@@ -1,9 +1,7 @@
 package drivers;
 
-public class Driver {
-	
-	public void run() {
-		System.out.println("Hello");
-	}
+public interface Driver {
+
+	public void run();
 
 }
